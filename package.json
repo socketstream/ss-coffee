@@ -1,0 +1,17 @@
+{
+  "name": "ss-coffee",
+  "author": "Owen Barnes <owen@socketstream.org>",
+  "description": "CoffeeScript wrapper for SocketStream 0.3",
+  "version": "0.1.0",
+  "main": "./lib/wrapper.js",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "coffee-script": "1.2.x"
+  },
+  "devDependencies": {}
+}
