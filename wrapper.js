@@ -1,7 +1,7 @@
 // CoffeeScript (JS) wrapper for SocketStream 0.3
 
-var fs = require('fs')
-  , coffee = require('coffee-script');
+var fs = require('fs'),
+    coffee = require('coffee-script');
 
 exports.init = function(root, config) {
 
@@ -22,9 +22,9 @@ exports.init = function(root, config) {
       } catch (e) {
         var message = "! Error compiling " + path + " into CoffeeScript";
         console.log(String.prototype.hasOwnProperty('red') && message.red || message);
+        cb("Error compiling to CoffeeScript: " + e.stack);
         throw new Error(e);
-        cb("Error compiling to CoffeeScript: " + e.stack);  
       }
     }
-  }
-}
+  };
+};
