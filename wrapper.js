@@ -1,9 +1,11 @@
-// CoffeeScript (JS) wrapper for SocketStream 0.3
+// CoffeeScript (JS) wrapper for SocketStream 0.3 and 0.4.x
 
 var fs = require('fs'),
-    coffee = require('coffee-script');
+    coffee = require('coffeescript');
 
 exports.init = function(root, config) {
+
+  coffee.register();
 
   return {
 

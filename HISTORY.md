@@ -1,3 +1,8 @@
+# 0.1.4
+
+* Upgraded to CoffeeScript 2.4.1
+
+
 # 0.1.3 / 2015-02-19
 
 * Upgraded to CoffeeScript 1.9.1
